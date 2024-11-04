@@ -65,6 +65,11 @@ ul li a {
   color: #000;
 }
 
+a:any-link {
+  text-decoration: none;
+  color: #000;
+}
+
 header {
   background-image: url(pictures/winter_landscape.jpg);
   background-position: center center;
