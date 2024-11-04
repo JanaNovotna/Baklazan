@@ -123,6 +123,25 @@ main {
   position: absolute;
   left: 100px;
   bottom: 50px;
+  z-index: 1;
+}
+
+.new__deco,
+.new__deco--two {
+  position: absolute;
+}
+
+.new__deco {
+  width: 180px;
+  bottom: 90px;
+  left: 310px;
+}
+
+.new__deco--two {
+  width: 250px;
+  bottom: 70px;
+  left: 10px;
+  transform: rotate(25deg);
 }
 
 .winter,
