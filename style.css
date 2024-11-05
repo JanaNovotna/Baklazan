@@ -166,6 +166,12 @@ main {
   display: flex;
 }
 
+.card__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card__img {
   width: 300px;
 }
@@ -181,7 +187,7 @@ main {
   width: 200px;
   text-align: left;
   padding-left: 0;
-  
+
 }
 
 footer {
